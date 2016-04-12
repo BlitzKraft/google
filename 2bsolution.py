@@ -1,5 +1,13 @@
 #!  /usr/bin/python
 
+'''
+This is not the final accepted solution. 
+The final accepted one used an index to traverse the number line,
+from each pair a, b. It does so only on higher indexes. There is
+no array creation, so no more memory error and only traverses the
+entire given array exactly once. Therefore, no time out error.
+'''
+
 def answer(intervals):
     intervals.sort(key = lambda tup: tup[0])
     print(intervals)
