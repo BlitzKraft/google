@@ -6,4 +6,8 @@ def answer(food, grid):
     tot_rights = len(grid)
     tot_downs = tot_rights
     
+'''
+This problem has been abandoned.
+The title was save_beta_rabbit
+'''
 
