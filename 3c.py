@@ -1,6 +1,5 @@
 #! /usr/bin/python
 
-
 '''
 Node
     __init__(self, node_name = None, node_next = None)
@@ -13,7 +12,7 @@ Linked_list
 '''
 
 # Linked list
-# Needs size, search and insert.
+# Doubly linked list?????
 
 class Node(object):
     def __init__(self, node_name = None, node_next = None):
@@ -45,8 +44,6 @@ class Linked_List(object):
 
     def insert(self, node_name, prev_node):
         self.search(node_name)
-
-
 
     def size(self):
         return self.size
